@@ -13,11 +13,12 @@
         }
         .tabs {
             display: flex;
+            flex-wrap: wrap;
             background-color: #c9faef;
             padding: 10px;
         }
         .tab {
-            margin-right: 20px;
+            margin-right: 10px;
             cursor: pointer;
             padding: 10px;
             background-color: white;
@@ -40,10 +41,17 @@
     <div class="tabs">
         <div class="tab" onclick="showTab('registro')">Registro</div>
         <div class="tab" onclick="showTab('informacion')">Información</div>
-        <div class="tab" onclick="showTab('preguntas')">Preguntas</div>
+        <div class="tab" onclick="showTab('comisiones')">Comisiones</div>
+        <div class="tab" onclick="showTab('delegado')">Delegado</div>
+ <div class="tab" onclick="showTab('guia')">Guía</div>
+    <div class="tab" onclick="showTab('ejemplos')">Ejemplos</div>
+
+        <div class="tab" onclick="showTab('contacto')">Contacto</div>
+                <div class="tab" onclick="showTab('preguntas')">Preguntas</div>
         <div class="tab" onclick="showTab('enlaces')">Enlaces</div>
     </div>
 
+  
     <div id="registro" class="content active">
         <h2>Registro</h2>
         <form>
@@ -124,8 +132,7 @@
     <p>El Modelo de las Naciones Unidas es una experiencia enriquecedora que permite a los jóvenes sumergirse en el mundo de la diplomacia y los asuntos internacionales. A través de la simulación de debates y negociaciones, los participantes desarrollan habilidades esenciales para su futuro académico y profesional. Además, el MUN fomenta valores como la cooperación, el respeto y la tolerancia, promoviendo una mayor conciencia sobre los desafíos globales y la importancia del diálogo internacional.</p>
 
     </div>
-
-    <div id="preguntas" class="content">
+ <div id="preguntas" class="content">
        <div class="comentarios-container">
     <h2>preguntas o comentarios</h2>
 
@@ -182,6 +189,174 @@
 <p><a href="https://www.cinu.mx/wp-content/uploads/2019/12/Guia-Modelos-ONU_2015.pdf" target="_blank">https://www.cinu.mx/wp-content/uploads/2019/12/Guia-Modelos-ONU_2015.pdf</a></p>  
 <p><a href="https://argentina.un.org/es/126247-modelos-onu" target="_blank">https://argentina.un.org/es/126247-modelos-onu</a></p>  
 <p><a href="https://www.globalmuners.org/wp-content/uploads/2017/12/Que%CC%81_es_un_Modelo_de_las_Naciones_Unidas_MUN-1.pdf" target="_blank">https://www.globalmuners.org/wp-content/uploads/2017/12/Que%CC%81_es_un_Modelo_de_las_Naciones_Unidas_MUN-1.pdf</a></p>  
+    </div>
+
+
+
+    <div id="comisiones" class="content">
+        <h2>Comisiones</h2>
+        <p>Las comisiones son órganos temáticos en los que se simulan los debates del Modelo de la ONU. Cada una se centra en asuntos específicos, permitiendo a los delegados abordar distintos problemas globales según la naturaleza de su comisión.</p>
+        <h3>Principales comisiones y sus funciones:</h3>
+        <ul>
+            <li><strong>Asamblea General:</strong> Órgano deliberativo más representativo. Se debaten temas como seguridad internacional, desarme, derechos humanos, medio ambiente, entre otros.</li>
+            <li><strong>Consejo de Seguridad:</strong> Tiene la responsabilidad de mantener la paz y seguridad mundial. Se discuten conflictos armados, amenazas a la paz, sanciones, etc. Solo 5 miembros tienen poder de veto.</li>
+            <li><strong>ECOSOC (Consejo Económico y Social):</strong> Examina problemas económicos, sociales y ambientales. Se centra en el desarrollo sostenible, reducción de la pobreza, cooperación internacional y más.</li>
+            <li><strong>OMS (Organización Mundial de la Salud):</strong> Trata temas de salud pública mundial, pandemias, acceso a medicamentos, sistemas sanitarios, etc.</li>
+            <li><strong>UNESCO:</strong> Promueve la educación, cultura, ciencia y comunicación. Fomenta la paz y el respeto por los derechos humanos a través de la cooperación cultural e intelectual.</li>
+            <li><strong>UN Women:</strong> Se dedica a la igualdad de género, derechos de las mujeres y prevención de la violencia de género.</li>
+            <li><strong>Corte Internacional de Justicia:</strong> Simula procesos jurídicos entre Estados. Los delegados actúan como jueces, abogados o representantes legales.</li>
+        </ul>
+
+        <h3>Ejemplos de temas tratados en comisiones:</h3>
+        <ul>
+            <li>Conflicto en Gaza y el papel del Consejo de Seguridad.</li>
+            <li>Cambio climático y justicia ambiental en el ECOSOC.</li>
+            <li>Acceso universal a la vacunación en la OMS.</li>
+            <li>Educación en zonas de conflicto en UNESCO.</li>
+            <li>Violencia de género y legislación internacional en UN Women.</li>
+        </ul>
+
+        <p>Los participantes deben prepararse a fondo, ya que los temas requieren análisis crítico, diplomacia y soluciones viables dentro del marco del Derecho Internacional.</p>
+    </div>
+
+       <div id="delegado" class="content">
+        <h2>Delegado</h2>
+        <p>El delegado es el representante de un país asignado dentro de una comisión del Modelo de Naciones Unidas. Es el protagonista principal del evento, ya que participa directamente en los debates y toma decisiones basadas en la política oficial de su nación.</p>
+
+        <h3>Funciones principales del delegado:</h3>
+        <ul>
+            <li><strong>Investigar:</strong> Conocer a fondo la postura, historia, relaciones internacionales, economía y políticas del país que representa.</li>
+            <li><strong>Redactar documentos:</strong> Crear un <em>position paper</em> que explique la posición del país sobre los temas que tratará su comisión.</li>
+            <li><strong>Preparar discursos:</strong> Elaborar un discurso de apertura y argumentaciones para defender su posición durante el debate.</li>
+            <li><strong>Debatir:</strong> Participar activamente en debates formales e informales con otros delegados, respetando el protocolo del MNU.</li>
+            <li><strong>Negociar:</strong> Buscar consensos, construir alianzas y redactar resoluciones en conjunto con otros delegados.</li>
+            <li><strong>Votar:</strong> Decidir sobre propuestas de resolución durante las votaciones oficiales.</li>
+        </ul>
+
+        <h3>Perfil ideal del delegado:</h3>
+        <ul>
+            <li>Capacidad de análisis y pensamiento crítico.</li>
+            <li>Habilidades de comunicación oral y escrita.</li>
+            <li>Conocimiento del contexto internacional y del país asignado.</li>
+            <li>Actitud diplomática, respeto y disposición al diálogo.</li>
+            <li>Compromiso con la preparación previa al evento.</li>
+        </ul>
+
+        <h3>Preparación recomendada:</h3>
+        <ul>
+            <li>Leer guías del modelo y reglamentos internos.</li>
+            <li>Consultar fuentes oficiales (ONU, embajadas, informes internacionales).</li>
+            <li>Practicar discursos en voz alta y técnicas de debate.</li>
+            <li>Trabajar en equipo con otros delegados de la misma delegación.</li>
+        </ul>
+
+        <p>Ser delegado en un MNU no solo mejora tus capacidades académicas, también te brinda una experiencia única para comprender el papel de la diplomacia internacional y el poder de la cooperación entre naciones.</p>
+    </div>
+
+<div id="guia" class="content">
+    <h2>Guía del Modelo ONU – Paso a Paso</h2>
+
+    <h3>¿Qué es un Modelo ONU?</h3>
+    <p>Un Modelo ONU (Model United Nations, MUN) es una simulación educativa donde los estudiantes representan a delegados de países y participan en comités similares a los de la ONU. Debaten temas globales, negocian resoluciones y aplican habilidades de oratoria, diplomacia y liderazgo.</p>
+
+    <h3>¿Para qué sirve participar en un Modelo ONU?</h3>
+    <ul>
+        <li>Desarrollas habilidades de liderazgo, negociación y pensamiento crítico.</li>
+        <li>Mejoras tu expresión oral y escrita.</li>
+        <li>Conoces temas de relevancia mundial y cómo se toman decisiones internacionales.</li>
+        <li>Haces networking con estudiantes de otras escuelas o universidades.</li>
+    </ul>
+
+    <h3>¿Cómo me preparo antes del evento?</h3>
+    <ul>
+        <li><strong>Investiga tu país:</strong> sistema político, economía, política exterior, aliados y rivales.</li>
+        <li><strong>Estudia el tema:</strong> ¿qué problema se discutirá?, ¿cómo afecta a tu país?, ¿qué soluciones propone?</li>
+        <li><strong>Redacta tu position paper:</strong> un documento que explique claramente tu postura oficial.</li>
+        <li><strong>Consulta resoluciones reales:</strong> de la ONU o de modelos anteriores.</li>
+        <li><strong>Prepara discursos:</strong> iniciales, de negociación, en contra y a favor de propuestas.</li>
+    </ul>
+
+    <h3>¿Qué debo llevar al evento?</h3>
+    <ul>
+        <li>Position paper impreso (y en USB o en la nube).</li>
+        <li>Investigación impresa: datos, citas, noticias relevantes.</li>
+        <li>Notas adhesivas o tarjetas para discursos.</li>
+        <li>Cuaderno, pluma, resaltadores.</li>
+        <li>Botella de agua y snacks (si se permite).</li>
+        <li>Vestimenta formal: traje, camisa/blusa, zapatos formales.</li>
+    </ul>
+
+    <h3>¿Qué sucede durante el Modelo?</h3>
+    <ul>
+        <li><strong>Sesiones formales:</strong> siguen protocolo parlamentario (lista de oradores, mociones, discursos).</li>
+        <li><strong>Sesiones informales (caucus):</strong> espacio para negociar, redactar resoluciones y alianzas.</li>
+        <li><strong>Debates:</strong> donde defiendes la postura de tu país con evidencia y diplomacia.</li>
+        <li><strong>Resoluciones:</strong> documento colectivo con propuestas concretas que se votan al final.</li>
+    </ul>
+
+    <h3>¿Cómo es la estructura del debate?</h3>
+    <ul>
+        <li>Apertura del comité.</li>
+        <li>Llamado de lista y verificación del quórum.</li>
+        <li>Lectura de agenda y discusión del tema.</li>
+        <li>Lista de oradores (discursos de postura).</li>
+        <li>Mociones para debates moderados o no moderados.</li>
+        <li>Negociación y redacción de resoluciones.</li>
+        <li>Votación de resoluciones.</li>
+        <li>Clausura del comité.</li>
+    </ul>
+
+    <h3>¿Qué errores debo evitar?</h3>
+    <ul>
+        <li>Hablar como si fueras tú mismo, no como delegado (evita "yo creo").</li>
+        <li>No prepararte o improvisar sin datos.</li>
+        <li>Romper el protocolo (interrumpir, hablar fuera de turno, usar lenguaje informal).</li>
+        <li>Perder la compostura ante conflictos o desacuerdos.</li>
+    </ul>
+
+    <h3>¿Qué hago después del Modelo?</h3>
+    <ul>
+        <li>Reflexiona: ¿qué hiciste bien? ¿qué podrías mejorar?</li>
+        <li>Guarda tus materiales para futuras ediciones.</li>
+        <li>Comparte tu experiencia con otros y ayuda a nuevos participantes.</li>
+        <li>Consulta si puedes obtener un reconocimiento o constancia.</li>
+    </ul>
+
+    <h3>Consejos extra</h3>
+    <ul>
+        <li>Trabaja en equipo: forma alianzas, aunque no siempre con tus amigos.</li>
+        <li>Usa lenguaje formal, claro y directo.</li>
+        <li>Escucha tanto como hablas: los buenos delegados entienden todas las posturas.</li>
+        <li>Lleva copias de tu resolución para distribuir si es necesario.</li>
+    </ul>
+
+    <p><strong>Recuerda:</strong> no necesitas ser un experto en política internacional para comenzar. Lo más importante es participar con actitud, respeto y disposición para aprender.</p>
+</div>
+
+
+<div id="ejemplos" class="content">
+    <h2>Ejemplos descargables</h2>
+    <p>Aquí puedes encontrar ejemplos que te ayudarán a prepararte mejor para el Modelo ONU:</p>
+    <ul>
+        <li><a href="https://unesmun.cve.edu.es/wp-content/uploads/2016/01/unesmun_guias_ejemplos.pdf" target="_blank">Ejemplo de Position Paper</a></li>
+        <li><a href="https://research.un.org/es/docs/resolutions" target="_blank">Ejemplo de Resolución</a></li>
+        <li><a href="https://munclermont.wordpress.com/wp-content/uploads/2015/05/discurso-de-apertura-ejemplo.pdf" target="_blank">Ejemplo de Discurso de Apertura</a></li>
+    </ul>
+    <p>Revisa estos documentos para entender mejor cómo estructurar tu participación.</p>
+</div>
+
+
+
+
+    <div id="contacto" class="content">
+        <h2>Contacto</h2>
+        <p>Si tienes dudas, sugerencias o deseas comunicarte con el equipo organizador, puedes hacerlo a través de los siguientes medios:</p>
+        <ul>
+            <li><strong>Correo electrónico:</strong> modeloonu.lim@gmail.com</li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/julian20342" target="_blank">@julian20342</a></li>
+            <li><strong>Teléfono:</strong> +52 7442628992</li>
+        </ul>
+        <p>También puedes visitarnos en las oficinas de la escuela de lunes a viernes en horario escolar.</p>
     </div>
 
     <script>
